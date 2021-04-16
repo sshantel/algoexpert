@@ -7,4 +7,4 @@ also sorted in ascending order.
 def sortedSquaredArray(array):
     for i in range(len(array)):
         array[i] = pow(array[i], 2)
-    return array
+    return sorted(array)
